@@ -39,7 +39,6 @@ function Footer() {
                       value="Thank you for your valuable feedback"
                     />
                     <input type="hidden" name="_template" value="table" />
-                    <input type="hidden" name="_next" value="#home" />
                     <input
                       type="text"
                       name="First Name"
