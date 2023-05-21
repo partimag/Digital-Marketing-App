@@ -42,7 +42,7 @@ function Footer() {
                     <input
                       type="hidden"
                       name="_next"
-                      value="http://localhost:3000/#home"
+                      value="https://digital-marketing-app-eight.vercel.app/#home"
                     />
                     <input
                       type="text"
@@ -78,71 +78,6 @@ function Footer() {
                     <button onClick={feedbackAlert}>login</button>
                   </form>
                 </div>
-
-                {/* <form id="contact-form" method="POST">
-                  <div className="row gx-3 gy-4">
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <label className="form-label">First name</label>
-                        <input
-                          name="Name"
-                          id="name"
-                          placeholder="Name "
-                          className="form-control"
-                          type="text"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-group">
-                        <label className="form-label">Your Email</label>
-                        <input
-                          name="Email"
-                          id="email"
-                          placeholder="Email "
-                          className="form-control"
-                          type="email"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="form-group">
-                        <label className="form-label">Subject</label>
-                        <input
-                          name="Subject"
-                          id="subject"
-                          placeholder="Subject "
-                          className="form-control"
-                          type="text"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="form-group">
-                        <label className="form-label">Your message</label>
-                        <textarea
-                          name="message"
-                          id="message"
-                          placeholder="Your message "
-                          rows="4"
-                          className="form-control"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="send">
-                        <button
-                          className="main-btn main-btn-theme2"
-                          type="button"
-                          value="Send"
-                        >
-                          {" "}
-                          Send Message
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form> */}
               </div>
             </div>
             <div className="col-lg-5 ms-auto col-xl-4">
