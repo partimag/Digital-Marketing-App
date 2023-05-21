@@ -258,8 +258,6 @@ font-size: 20px;
   color: inherit;
 }
 
-// image animation
-
 img.vert-move {
   -webkit-animation: mover 1s infinite  alternate;
   animation: mover 1s infinite  alternate;
@@ -276,7 +274,6 @@ img.vert-move {
   0% { transform: translateY(120px); }
   100% { transform: translateY(100px); }
 }
-// side navbar 
 .sidenav-mobile-visible {
   display: block;
 }

@@ -41,7 +41,7 @@ function Bio() {
                   </div>
                 </div>
                 <div className="btn-bar pt-4">
-                  <a className="main-btn main-btn-theme me-4" href="#contactus">
+                  <a className="main-btn main-btn-theme me-4" href="#contact">
                     Contact Me
                   </a>
                   <a className="main-btn main-btn-dark" href="#portfolio">
